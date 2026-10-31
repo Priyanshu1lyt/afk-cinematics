@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "afkcinematics_reimagined",
+  "version": "${version}",
+  "name": "AFK Cinematics Reimagined",
+  "description": "An independently written AFK cinematic camera mod.",
+  "authors": ["NotHeartYT"],
+  "contact": {},
+  "environment": "client",
+  "entrypoints": { "client": ["dev.community.afkcinematics.AfkCinematicsClient"] },
+  "mixins": ["afkcinematics_reimagined.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
